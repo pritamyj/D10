@@ -19,7 +19,13 @@
         "drupal/admin_toolbar": "^3.4",
         "drupal/core-composer-scaffold": "^10.2",
         "drupal/core-project-message": "^10.2",
-        "drupal/core-recommended": "^10.2"
+        "drupal/core-recommended": "^10.2",
+        "drupal/devel": "^5.0",
+        "drupal/flag": "^4.0@beta",
+        "drupal/layout_builder_additions": "^1.0",
+        "drupal/layout_builder_tabs": "^1.0",
+        "drupal/media_remote_audio": "^1.0",
+        "drupal/views_contextual_filters_or": "^1.4"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -95,6 +101,7 @@
         }
     },
     "require-dev": {
-        "drush/drush": "^12.4"
+        "drush/drush": "^12.4",
+        "kint-php/kint": "^5.1"
     }
 }

@@ -1,0 +1,17 @@
+/vendor
+
+/web/sites/default/files
+/web/sites/default/settings.local.php
+/web/themes/custom/spotify/node_modules
+/web/themes/custom/spotify/css/*
+
+/web/themes/spotify copy
+
+/drush/contrib/
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/modules/ndp/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/

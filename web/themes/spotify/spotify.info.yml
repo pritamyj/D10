@@ -1,0 +1,17 @@
+name: Spotify
+type: theme
+description: 'A spotify theme that offers extra fluffiness.'
+core_version_requirement: ^9 || ^10
+package: Custom
+version: VERSION
+base theme: false
+
+libraries:
+  - spotify/global-styling
+  # - spotify/global-scripts
+  
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  footer: 'Footer'
