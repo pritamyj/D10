@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function your_library_theme() {
+  return [
+    'hello_block' => [
+      'variables' => [
+        'data' => NULL,
+      ],
+    ],
+  ];
+}

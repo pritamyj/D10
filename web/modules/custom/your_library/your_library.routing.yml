@@ -1,0 +1,7 @@
+# your_library_block.YourLibraryBlock:
+#   path: '/YourLibraryBlock'
+#   defaults:
+#     _controller: 'Drupal\your_library_block\Controller\YourLibraryBlock::welcome'
+#     _title: 'Your Library'
+#   requirements:
+#     _permission: 'access content'
