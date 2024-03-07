@@ -8,7 +8,6 @@ base theme: false
 
 libraries:
   - spotify/global-styling
-  # - spotify/global-scripts
   
 regions:
   header: 'Header'

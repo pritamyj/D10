@@ -22,6 +22,7 @@ class YourLibrary extends BlockBase {
    */
   public function build() {
 
+    
     $content1['playlists']['view'] = views_embed_view('playlists', 'block_1');
     $content2['following_artists']['view'] = views_embed_view('following_artists', 'block_1');
     $result = array_merge($content1,$content2);
@@ -29,6 +30,11 @@ class YourLibrary extends BlockBase {
       return [
         '#theme' => 'hello_block',
         '#data' => $result,
+        '#attached' => [
+          'library' => [
+            'your_library/global-styling',
+          ],
+        ],
         '#cache' => array(
           'max-age' => 0,
         ),

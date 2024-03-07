@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b7ec70699a55964acd9bb69ee091f89",
+    "content-hash": "13473c231867699f19529527c3363483",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1434,6 +1434,58 @@
             "homepage": "https://www.drupal.org/project/layout_builder_tabs",
             "support": {
                 "source": "https://git.drupalcode.org/project/layout_builder_tabs"
+            }
+        },
+        {
+            "name": "drupal/layout_disable",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/layout_disable.git",
+                "reference": "2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/layout_disable-2.0.2.zip",
+                "reference": "2.0.2",
+                "shasum": "6c96c859352fc79842226377bb5a62b7581b5517"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.2",
+                    "datestamp": "1698822486",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Anybody",
+                    "homepage": "https://www.drupal.org/user/291091"
+                },
+                {
+                    "name": "Grevil",
+                    "homepage": "https://www.drupal.org/user/3668491"
+                },
+                {
+                    "name": "thomas.frobieter",
+                    "homepage": "https://www.drupal.org/user/409335"
+                }
+            ],
+            "description": "Provides an user interface to disable unwanted core or contrib layouts.",
+            "homepage": "https://www.drupal.org/project/layout_disable",
+            "support": {
+                "source": "https://git.drupalcode.org/project/layout_disable"
             }
         },
         {

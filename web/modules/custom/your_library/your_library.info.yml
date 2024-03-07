@@ -3,3 +3,8 @@ type: module
 description: 'Module to display your library block displaying followed users and saved playlist view results together'
 package: custom
 core_version_requirement: ^9 || ^10
+
+
+# libraries:
+#   - your_library/global-styling
+#   - your_library/global-scripts

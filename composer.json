@@ -24,6 +24,7 @@
         "drupal/flag": "^4.0@beta",
         "drupal/layout_builder_additions": "^1.0",
         "drupal/layout_builder_tabs": "^1.0",
+        "drupal/layout_disable": "^2.0",
         "drupal/media_remote_audio": "^1.0",
         "drupal/views_contextual_filters_or": "^1.4"
     },
